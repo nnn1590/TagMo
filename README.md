@@ -60,7 +60,8 @@ This app is a result of work by many others. Thanks go out to (In alphabetical o
 * Many more who helped in testing.
 
 > Google翻訳によって英語から日本語に翻訳されました。
-> Google翻訳で英語から日本語に翻訳されています。
+
+> Translated from English to Japanese by Google Translate.
 
 # TagMoとは何ですか？
 
