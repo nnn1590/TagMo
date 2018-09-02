@@ -18,7 +18,11 @@
 
 -dontobfuscate
 -keep class android.support.v7.widget.SearchView{*;}
+-keep class android.support.v4.provider.FontsContractCompat{*;}
 -keep class **$$Parcelable {*;}
 -keepclassmembers class * implements android.os.Parcelable {
   public static final android.os.Parcelable$Creator CREATOR;
 }
+
+-keepattributes SourceFile, LineNumberTable
+-optimizations !code/allocation/variable

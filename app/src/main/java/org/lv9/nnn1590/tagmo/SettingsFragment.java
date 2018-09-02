@@ -155,7 +155,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
             File dir = Util.getDataDir();
             if (!dir.isDirectory())
                 dir.mkdir();
-        } catch (Exception e) {
+        } catch (Exception ignored) {
         }
 
         File file = new File(Util.getDataDir(), Util.AMIIBO_DATABASE_FILE);

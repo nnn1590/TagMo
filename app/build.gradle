@@ -9,9 +9,18 @@ buildscript {
 }
 
 android {
+    signingConfigs {
+        config {
+            def properties=new Properties()
+            properties.load(project.rootProject.file('local.properties').newDataInputStream())
+            keyAlias properties.getProperty("RELEASE_KEY_ALIAS")
+            keyPassword properties.getProperty("RELEASE_KEY_PASSWORD")
+            storeFile file(properties.getProperty("RELEASE_STORE_FILE"))
+            storePassword properties.getProperty("RELEASE_STORE_PASSWORD")
+        }
+    }
     compileSdkVersion 26
     buildToolsVersion '28.0.2'
-
     defaultConfig {
         applicationId "org.lv9.nnn1590.tagmo"
         minSdkVersion 14
@@ -24,9 +33,9 @@ android {
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
-
     productFlavors {
         fat {
             dimension "abi"
@@ -46,7 +55,6 @@ android {
             universalApk true
         }
     }
-
     sourceSets.main {
         jniLibs.srcDir '../ndk/libs'
     }
