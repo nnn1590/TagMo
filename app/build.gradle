@@ -10,10 +10,10 @@ buildscript {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion '26.0.2'
+    buildToolsVersion '28.0.2'
 
     defaultConfig {
-        applicationId "com.hiddenramblings.tagmo"
+        applicationId "org.lv9.nnn1590.tagmo"
         minSdkVersion 14
         targetSdkVersion 26
         versionCode 5
@@ -22,8 +22,8 @@ android {
     flavorDimensions "abi"
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 

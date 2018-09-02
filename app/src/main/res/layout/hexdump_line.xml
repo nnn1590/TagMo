@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
@@ -16,7 +17,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FFFF"/>
+        android:text="FFFF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView1"
@@ -30,7 +32,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView2"
@@ -44,7 +47,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView3"
@@ -58,7 +62,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView4"
@@ -72,7 +77,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView5"
@@ -86,7 +92,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView6"
@@ -100,7 +107,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView7"
@@ -114,7 +122,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView8"
@@ -128,7 +137,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView9"
@@ -142,7 +152,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView10"
@@ -156,7 +167,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView11"
@@ -170,7 +182,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView12"
@@ -184,7 +197,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView13"
@@ -198,7 +212,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView14"
@@ -212,7 +227,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView15"
@@ -226,7 +242,8 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/textView16"
@@ -240,5 +257,6 @@
         android:textSize="12sp"
         android:typeface="monospace"
         android:fontFamily="monospace"
-        android:text="FF"/>
+        android:text="FF"
+        tools:ignore="HardcodedText" />
 </LinearLayout>
